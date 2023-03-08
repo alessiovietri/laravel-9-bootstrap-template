@@ -1,16 +1,19 @@
 <div align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a>
-<div><strong style="color: red">TEMPLATE</strong></div></div>
+<h1><strong style="color: #EF3B2D;">9 + BOOTSTRAP TEMPLATE</strong></h1></div>
 
 # Laravel Template
-Questa repo template contiene una versione modificata del pacchetto laravel/laravel. Tale versione differisce nei seguenti punti:
+Questa repo template contiene una versione modificata del pacchetto `laravel/laravel`. Tale versione differisce nei seguenti punti:
 
 - `PostCSS` è stato rimosso
-- E' stato installato `SASS`
-- E' stato installato `Bootstrap`
+- È stato installato `SASS`
+- È stato installato `Bootstrap`
 - La cartella `resources/css` è stata rimossa
-- E' stata aggiunta la cartella `resources/scss` contenente il file `app.scss`
+- È stata aggiunta la cartella `resources/scss` contenente il file `app.scss`
 - Il file `vite.config.js` è stato modificato al fine di includere i file `resources/scss/app.scss` e `resources/js/app.js` nella compilazione. Sono stati inoltre aggiunti gli alias per le cartelle `/resources/` e `node_modules/bootstrap`
-- Nella view `welcome` sono stati inclusi gli asset tramite direttiva `@vite`
+- Nella view `welcome`:
+    - Sono stati inclusi gli asset tramite direttiva `@vite`
+    - È stato rimosso lo stile preesistente
+    - È stato modificato il contenuto
 
 ## Passi da effettuare per RIPRODURRE questo template
 1. Modificare il file `package.json`
