@@ -42,13 +42,14 @@ Questa repo template contiene una versione modificata del pacchetto laravel/lara
 8. Aggiungere la riga import `'~resources/scss/app.scss';` nel file `resources/js/app.js` per importare tramite JS il file SCSS principale
 9. Aggiungere la direttiva `@vite('resources/js/app.js')` nella sezione `<head>` del file `resources/views/welcome.blade.php` per includere gli asset nella view
 10. Aggiungere le righe:
-```
-    import.meta.glob([
-        '../img/**'
-    ]);
-```
-nel file `resources/js/app.js` per istruire Vite e Blade affinché processino correttamente i nostri asset
-11. Installare `Bootstrap`:
+    ```
+        import.meta.glob([
+            '../img/**'
+        ]);
+    ```
+    nel file `resources/js/app.js` per istruire Vite e Blade affinché processino correttamente i nostri asset
+11. Aggiungere la riga `package-lock.json` nel file `.gitignore` che si trova nella `root` del progetto
+12. Installare `Bootstrap`:
     1. Eseguire il comando `npm i --save bootstrap @popperjs/core` per installare sia la parte `CSS` che la parte `JS` di `Bootstrap`
     2. Aggiungere la riga `const path = require('path');` nel file `vite.config.js` subito prima della riga `export default defineConfig({`
     3. Aggiungere la riga `'~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')` nell'oggetto `resolve.alias` nel file `vite.config.js`
