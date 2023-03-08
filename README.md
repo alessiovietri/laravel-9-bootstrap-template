@@ -48,7 +48,7 @@ Questa repo template contiene una versione modificata del pacchetto laravel/lara
         ]);
     ```
     nel file `resources/js/app.js` per istruire Vite e Blade affinché processino correttamente i nostri asset
-11. Aggiungere la riga `package-lock.json` nel file `.gitignore` che si trova nella `root` del progetto
+11. Aggiungere la riga `package-lock.json` nel file `.gitignore` che si trova nella `root` del progetto per evitare di pubblicarlo nella repo (è un file che viene generato ed aggiornato automaticamente dopo l'esecuzione del comando `npm i`)
 12. Installare `Bootstrap`:
     1. Eseguire il comando `npm i --save bootstrap @popperjs/core` per installare sia la parte `CSS` che la parte `JS` di `Bootstrap`
     2. Aggiungere la riga `const path = require('path');` nel file `vite.config.js` subito prima della riga `export default defineConfig({`
