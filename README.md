@@ -69,3 +69,12 @@ Questa repo template contiene una versione modificata del pacchetto `laravel/lar
 7. Eseguire il comando `npm i` o `npm install`
 8. Aprire un secondo `terminale`
 9. In uno dei due terminali, eseguire il comando `php artisan serve`. Nell'altro, `npm run dev`
+
+
+## Alternativa: pacchetto Composer
+In alternativa, è stato sviluppato il pacchetto laravel-9-preset da [@fabiopacificom](https://github.com/fabiopacificicom) che ci evita di effettuare tutti i passaggi.
+
+> &nbsp;
+> &nbsp; Link: 
+> &nbsp; https://github.com/fabiopacificicom/laravel-9-preset
+> &nbsp;
