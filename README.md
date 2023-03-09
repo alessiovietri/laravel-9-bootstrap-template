@@ -24,13 +24,16 @@ Questa repo template contiene una versione modificata del pacchetto `laravel/lar
 4. Eseguire il comando `npm i --save-dev sass` per installare SASS
 5. Rinominare la cartella `css` che si trova nella cartella `resources/` in `scss`
 6. Rinominare il file `app.css` che si trova nella nuova cartella `resources/scss` in `app.scss`
-7. Modificare il file vite.config.js
+7. Modificare il file vite.config.js:
     - Cambiare la sezione `laravel(...)` in:
     ```
-        laravel([
-            'resources/scss/app.scss',
-            'resources/js/app.js',
-        ]),
+        laravel({
+            input: [
+                'resources/scss/app.scss',
+                'resources/js/app.js'
+            ],
+            refresh: true
+        })
     ```
     per includere i file `resources/scss/app.scss` e `resources/js/app.js` nella compilazione (`npm run dev`/`build`)
     - Aggiungere la sezione:
