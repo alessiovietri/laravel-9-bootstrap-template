@@ -70,6 +70,10 @@ Questa repo template contiene una versione modificata del pacchetto `laravel/lar
 8. Aprire un secondo `terminale`
 9. In uno dei due terminali, eseguire il comando `php artisan serve`. Nell'altro, `npm run dev`
 
+## Creare una template repository
+1. Aprire la repo su github
+2. Cliccare su `Settings`
+3. Spuntare la casella `Template repository`
 
 ## Alternativa: pacchetto Composer
 In alternativa, è stato sviluppato il pacchetto laravel-9-preset da [@fabiopacificom](https://github.com/fabiopacificicom) che ci evita di effettuare tutti i passaggi.
